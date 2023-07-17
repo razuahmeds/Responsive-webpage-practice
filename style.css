@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.logo{
+    width: 50px;
+}
+
+.list-items{
+    display: flex;
+    align-items: center;
+}
+
+
+.list-items>a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+header{
+    background-image:
+            linear-gradient(to bottom, #44445285, #0b0450ba),
+            url("https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg");
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+}
+
+
+
+.header{    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.banner-info{
+    width: 40%;
+    color: #fff;
+}
+.banner-info > h2{  
+    font-size: 45px;  
+}
+.banner-info > p{  font-size: 18px; 
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.header>img{
+    width: 40%; 
+}
+
+
+/* ======= button ========== */
+button {
+    border: none;
+    background: tomato;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.join-btn {
+    background-color: dodgerblue;
+    font-size: 14px;
+    padding: 4px 8px;
+}
+
+/* responsive style */
+
+@media only screen and (max-width: 440px) {
+
+
+    header{
+        height: auto;
+    }
+
+
+    .header{
+        justify-content: center;
+        flex-direction: column;
+            }
+                     
+.banner-info, .header>img {
+        width: 80%;
+    }
+
+
+    .list-items{
+        flex-direction: column;
+    }
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media only screen and (max-width:1030px){
+    header {
+            height: auto;
+        }
+    
+    
+        .header {
+            justify-content: center;
+            flex-direction: column;
+        }
+    
+        .banner-info,
+        .header>img {
+            width: 80%;
+        }
+    
+    
+        .list-items {
+            flex-direction: column;
+        }
+    
+        nav {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+}
+@media only screen and (max-width:1290px){
+    header {
+            height: auto;
+        }
+    
+    
+        .header {
+            justify-content: center;
+            flex-direction: column;
+        }
+    
+        .banner-info,
+        .header>img {
+            width: 80%;
+        }
+    
+    
+        .list-items {
+            flex-direction: column;
+        }
+    
+        nav {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+}
