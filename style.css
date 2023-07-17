@@ -20,7 +20,9 @@
     text-decoration: none;
     color: #fff;
     margin-right: 10px;
+    text-transform: uppercase;
 }
+
 
 
 nav{
@@ -83,6 +85,7 @@ button {
     text-transform: uppercase;
     cursor: pointer;
 }
+
 
 .join-btn {
     background-color: dodgerblue;
